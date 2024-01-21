@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code Scanner Or reader JS Coding Nepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d575fe1d69.js" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form>
+            <input type="file" hidden>
+            <img src="imgs/qr1.jpg" alt="QR code Img">
+            <div class="scan">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p class="text">Couldn't scan QR Code</p>
+            </div>
+        </form>
+        <div class="content">
+            <textarea readonly>
+                This is a simple qr code reader app made with javascript
+            </textarea>
+            <div class="btns">
+                <button class="close">Close</button>
+                <button class="copy">Copy Text</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
